@@ -1,28 +1,49 @@
+
 .form {
-  width: 275px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .group {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.submit {
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: rgba(199, 204, 209, 0.321);
-  width: 130px;
-  margin-left: auto;
-  margin-right: auto;
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input, .field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 span {
-  font-size: 12px;
-  color: orangered;
+    font-size: 12px;
+    color: red;
+}
+
+.submit {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #45a049;
 }

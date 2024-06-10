@@ -1,15 +1,29 @@
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
+
+p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
 .button {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  height: 35px;
-  color: rgb(255, 255, 255);
-  background-color: rgba(6, 6, 124, 0.808);
-  margin-top: 9px;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c0392b;
 }
